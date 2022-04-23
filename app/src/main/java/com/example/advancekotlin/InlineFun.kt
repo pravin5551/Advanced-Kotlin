@@ -12,6 +12,7 @@ fun main() {
     The use of inline fun enhances the performance of higher order function.
     The inline fun tells the compiler to copy parameters and fun to call site
      */
+
     inlineFunction { print("Inside main") }
 
     inlineFunction { print("Inside main") }
