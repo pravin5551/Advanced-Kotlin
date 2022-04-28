@@ -6,7 +6,7 @@ class HigherOrderFun {
 }
 
 fun main() {
-    higherOrder(5.0 , 6.0,::add)
+    higherOrder(5.0, 6.0, ::add)
 }
 
 fun add(a: Double, b: Double): Double {
